@@ -1,0 +1,86 @@
+.score-header {
+	font-weight: bold;
+	text-align: center;
+}
+
+.score-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.first-score {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	font-size: 12px;
+	height: 30px;
+	text-align: center;
+}
+
+.second-score {
+	border: 1px solid black;
+	font-size: 12px;
+	height: 30px;
+	text-align: center;
+}
+
+.frame-score {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.score-table {
+	table-layout: fixed;
+}
+
+.score-label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.score-item {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.score-submit {
+	vertical-align: middle;
+}
+
+.score-reset {
+  text-align: right;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	width: 35px;
+	height: 30px;
+	border: 1px solid grey;
+	vertical-align: middle;
+	padding: 4px;
+}
+
+input[type="radio"]:checked + label {
+  background-color: lightgrey;
+}
+
+input[type="radio"]:disabled + label {
+  color: lightgrey;
+}
+
+button.pins {
+	width: 35px;
+	height: 30px;
+}
+
+button.score {
+	width: 100px;
+	height: 30px;
+}
